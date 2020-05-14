@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany777
-  productName: "Se\xF1ales del universo"
+  productName: "Se\xF1ales del universo interfaz"
   defaultCursor: {fileID: 2800000, guid: 3d8b1baf98c3eca428192b4732d88b4d, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
