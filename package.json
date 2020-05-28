@@ -1,0 +1,27 @@
+{
+  "name": "senales_del_universo",
+  "version": "1.0.0",
+  "description": "aplicacion de realidad aumentada",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres100r/Senales_del_universo.git"
+  },
+  "keywords": [
+    "realidad",
+    "aumentada",
+    "editorial",
+    "señales",
+    "del",
+    "destino."
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres100r/Senales_del_universo/issues"
+  },
+  "homepage": "https://github.com/andres100r/Senales_del_universo#readme"
+}
