@@ -473,7 +473,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -492,15 +493,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag26
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98769236
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0985
-  mRuntimeTexture: {fileID: 2800000, guid: fdd106f1400a41babacfc0dd65dbc99f, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &35629594
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,6 +635,9 @@ MonoBehaviour:
   m_Color: {r: 0.45774576, g: 0.9528302, b: 0.05842829, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+
+  m_Maskable: 1
+
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1188,7 +1192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -1207,15 +1213,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag9
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.99840266
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 640.9745
-  mRuntimeTexture: {fileID: 2800000, guid: e87c69279b8e400b96fd27e1f38b7d1c, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!21 &78238640
 Material:
   serializedVersion: 6
@@ -1354,7 +1360,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -1373,15 +1381,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag22
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98767334
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0863
-  mRuntimeTexture: {fileID: 2800000, guid: 11bbe8184fb54d918d15a1de3e3a8778, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &85250239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2362,7 +2370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -2381,15 +2391,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag30
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98767334
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0863
-  mRuntimeTexture: {fileID: 2800000, guid: 5e2347757fe14382844a2329ee7f7961, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &190695067
 GameObject:
   m_ObjectHideFlags: 0
@@ -2905,7 +2915,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -2924,15 +2936,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag33
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.9891975
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 635.0648
-  mRuntimeTexture: {fileID: 2800000, guid: caee2f3d4342402aabab6738b40058f8, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &219040295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3111,7 +3123,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &223360772
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4715,9 +4727,9 @@ RectTransform:
   m_Father: {fileID: 2093566544}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -382.165, y: -85.700005}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 714.8, y: 129.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &434145050
@@ -5482,7 +5494,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -5501,15 +5515,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag10
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.99835515
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 640.94403
-  mRuntimeTexture: {fileID: 2800000, guid: 5d16ff84f52d4364aed2cea3195a5156, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &538383712
 GameObject:
   m_ObjectHideFlags: 0
@@ -5701,9 +5715,9 @@ RectTransform:
   m_Father: {fileID: 2093566544}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -382.165, y: -428.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 705.2, y: 129.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &556719987
@@ -7373,7 +7387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -7392,15 +7408,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag25
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98767334
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0863
-  mRuntimeTexture: {fileID: 2800000, guid: d8e589a443094aa092b15fc37b9b5f5f, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!21 &824618473
 Material:
   serializedVersion: 6
@@ -7766,7 +7782,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -7785,15 +7803,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag20
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98767334
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0863
-  mRuntimeTexture: {fileID: 2800000, guid: 6fa795082839422e97eeb6325f138338, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &900471196
 GameObject:
   m_ObjectHideFlags: 0
@@ -8253,7 +8271,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -8272,15 +8292,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag32
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.9891975
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 635.0648
-  mRuntimeTexture: {fileID: 2800000, guid: cd8ca46edd804faaa0d01dbba016ca9b, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &966888302
 GameObject:
   m_ObjectHideFlags: 0
@@ -10655,7 +10675,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -10674,15 +10696,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag31
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.9891975
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 635.0648
-  mRuntimeTexture: {fileID: 2800000, guid: 1404adfc865e417d9f6dd4c37eae40a3, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1148766420
 GameObject:
   m_ObjectHideFlags: 0
@@ -11268,7 +11290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -11287,15 +11311,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag23
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98767334
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0863
-  mRuntimeTexture: {fileID: 2800000, guid: d3263cc18d664a858ab05d9a64743a72, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!43 &1227185738
 Mesh:
   m_ObjectHideFlags: 0
@@ -12000,7 +12024,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -12019,15 +12045,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag16
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.987673
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.08606
-  mRuntimeTexture: {fileID: 2800000, guid: 146aa68a378247f7b30720def4bf4a21, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!43 &1290947228
 Mesh:
   m_ObjectHideFlags: 0
@@ -12330,7 +12356,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -12349,15 +12377,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag15
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.99835515
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 640.94403
-  mRuntimeTexture: {fileID: 2800000, guid: a40fa46d5edc4ecc8f46403852514b65, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1339784707
 GameObject:
   m_ObjectHideFlags: 0
@@ -12467,7 +12495,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -12486,15 +12516,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag17
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98767334
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0863
-  mRuntimeTexture: {fileID: 2800000, guid: 1446edd991f344eaae1f90014940ba0a, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1348194757
 GameObject:
   m_ObjectHideFlags: 0
@@ -12684,7 +12714,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -12703,15 +12735,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag14
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
+  mInitializedInEditor: 0
+  mDataSetPath: 
   mAspectRatio: 1
-  mImageTargetType: 0
+  mImageTargetType: 3
   mWidth: 642
   mHeight: 642
-  mRuntimeTexture: {fileID: 2800000, guid: 18d783a048d74f1bbf656a5d14b39522, type: 3}
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1353466273
 GameObject:
   m_ObjectHideFlags: 0
@@ -12746,9 +12778,9 @@ RectTransform:
   m_Father: {fileID: 2093566544}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -382.16498, y: -257.10007}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 708.4, y: 129.6}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &1353466275
@@ -13000,7 +13032,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -13019,15 +13053,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag18
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98613244
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 633.09705
-  mRuntimeTexture: {fileID: 2800000, guid: 7fec9bce19d84490aa42571be48e8e9f, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1358448170
 GameObject:
   m_ObjectHideFlags: 0
@@ -14384,7 +14418,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -14403,15 +14439,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag27
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98767334
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0863
-  mRuntimeTexture: {fileID: 2800000, guid: 284c7104259e4aa0b4b31820a5418c77, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1458398307
 GameObject:
   m_ObjectHideFlags: 0
@@ -14688,7 +14724,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -14707,16 +14745,17 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag11
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
+  mInitializedInEditor: 0
+  mDataSetPath: 
   mAspectRatio: 1
-  mImageTargetType: 0
+  mImageTargetType: 3
   mWidth: 642
   mHeight: 642
-  mRuntimeTexture: {fileID: 2800000, guid: 1e7914f26ae44d4b9655200f6b0442a4, type: 3}
---- !u!1 &1465311800
+
+  mRuntimeTexture: {fileID: 0}
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14769,6 +14808,9 @@ MonoBehaviour:
   m_Color: {r: 1, g: 0.023584902, b: 0.023584902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+
+  m_Maskable: 1
+
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15104,6 +15146,9 @@ MonoBehaviour:
   m_Color: {r: 0.9811321, g: 0.06016379, b: 0.06016379, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+
+  m_Maskable: 1
+
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15459,7 +15504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -15478,15 +15525,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag29
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98613244
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 633.09705
-  mRuntimeTexture: {fileID: 2800000, guid: 2e42946019a24800ba8dde4a3020ac47, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1001 &1609743746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15992,7 +16039,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -16011,15 +16060,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag12
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
+  mInitializedInEditor: 0
+  mDataSetPath: 
   mAspectRatio: 1
-  mImageTargetType: 0
+  mImageTargetType: 3
   mWidth: 642
   mHeight: 642
-  mRuntimeTexture: {fileID: 2800000, guid: 56edb85719494932aa66dced142c79f3, type: 3}
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1702093272
 GameObject:
   m_ObjectHideFlags: 0
@@ -16537,7 +16586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -16556,15 +16607,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag24
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98767334
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0863
-  mRuntimeTexture: {fileID: 2800000, guid: c8d85ed6a90746df9bf4581c9b892761, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1759797498
 GameObject:
   m_ObjectHideFlags: 0
@@ -16679,7 +16730,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -16698,15 +16751,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag8
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 1.0162601
-  mImageTargetType: 0
-  mWidth: 631.728
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
+  mWidth: 642
   mHeight: 642
-  mRuntimeTexture: {fileID: 2800000, guid: 2050314d506e4b2ab7c775d8b109996c, type: 3}
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1775831481
 GameObject:
   m_ObjectHideFlags: 0
@@ -17317,7 +17370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -17336,15 +17391,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag28
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.99226
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 637.0309
-  mRuntimeTexture: {fileID: 2800000, guid: 6f8d5fb67f5e458cad417b7e34e09176, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1829631351
 GameObject:
   m_ObjectHideFlags: 0
@@ -18083,7 +18138,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -18102,15 +18159,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag13
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
+  mInitializedInEditor: 0
+  mDataSetPath: 
   mAspectRatio: 1
-  mImageTargetType: 0
+  mImageTargetType: 3
   mWidth: 642
   mHeight: 642
-  mRuntimeTexture: {fileID: 2800000, guid: bcd788cf9efc46cd97037dd0c4d6fb09, type: 3}
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1888755682
 GameObject:
   m_ObjectHideFlags: 0
@@ -18651,7 +18708,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -18670,15 +18729,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag21
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98769236
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0985
-  mRuntimeTexture: {fileID: 2800000, guid: 7326a133981a4abc84b3e2542bbd282a, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!1 &1939849027
 GameObject:
   m_ObjectHideFlags: 0
@@ -18696,7 +18755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1939849028
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18868,7 +18927,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -18887,15 +18948,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pag19
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 0.98767334
-  mImageTargetType: 0
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
   mWidth: 642
-  mHeight: 634.0863
-  mRuntimeTexture: {fileID: 2800000, guid: b6723576c99242e99a3f41a9eb326c1c, type: 3}
+  mHeight: 642
+  mRuntimeTexture: {fileID: 0}
 --- !u!43 &1970479075
 Mesh:
   m_ObjectHideFlags: 0
@@ -20466,7 +20527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+
+  StatusFilter: 2
+
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
@@ -20485,13 +20548,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: portada
+  mTrackableName: 
   mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Senales_del_universo.xml
-  mAspectRatio: 1.0771812
-  mImageTargetType: 0
-  mWidth: 596
+  mInitializedInEditor: 0
+  mDataSetPath: 
+  mAspectRatio: 1
+  mImageTargetType: 3
+  mWidth: 642
   mHeight: 642
   mRuntimeTexture: {fileID: 0}
 --- !u!1 &2132121339
