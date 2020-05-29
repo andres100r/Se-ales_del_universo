@@ -22,7 +22,7 @@ public class validarEmail : MonoBehaviour {
 
         //parse json 
         JSONNode jsonData = JSON.Parse (System.Text.Encoding.UTF8.GetString (www.downloadHandler.data));
-        //print(jsonData.Count);
+        //print(jsonData);
 
         if (!(www.isNetworkError || www.isHttpError)) {
 
