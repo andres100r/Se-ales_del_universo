@@ -15,9 +15,18 @@ public class ScenneChange : MonoBehaviour
     void Update(){
         
     }
-    public void ChangeScenne(){
+    public void SampleScene(){
         SceneManager.LoadScene("SampleScene");
+        
+    } public void VamosaLeer(){
+        SceneManager.LoadScene("Vamos a leer");
 
+    } public void PongamosAtencion(){
+
+        SceneManager.LoadScene("Pongamos atencion");
+
+    } public void Ranking(){
+
+        SceneManager.LoadScene("Ranking");
     }
-
 }

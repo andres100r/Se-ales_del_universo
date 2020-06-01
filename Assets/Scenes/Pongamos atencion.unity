@@ -1022,8 +1022,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 153241581}
-        m_TargetAssemblyTypeName: ScennerChange, Assembly-CSharp
-        m_MethodName: ChangeScenne
+        m_TargetAssemblyTypeName: ScenneChange, Assembly-CSharp
+        m_MethodName: SampleScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 153241576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71550c2a351a8434782cfe2971690c65, type: 3}
+  m_Script: {fileID: 11500000, guid: fa6d25a1ebc568d498d238192b09a72e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!43 &178312016
