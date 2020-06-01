@@ -474,8 +474,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -1010,8 +1008,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -1149,8 +1145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -2163,8 +2157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -2410,8 +2402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -4614,6 +4604,7 @@ GameObject:
   - component: {fileID: 434145052}
   - component: {fileID: 434145051}
   - component: {fileID: 434145050}
+  - component: {fileID: 434145053}
   m_Layer: 5
   m_Name: Button Vamos a Leer
   m_TagString: Untagged
@@ -4636,9 +4627,9 @@ RectTransform:
   m_Father: {fileID: 2093566544}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -382.165, y: -85.700005}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 714.8, y: 129.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &434145050
@@ -4696,10 +4687,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 294647427}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 434145053}
+        m_TargetAssemblyTypeName: ScenneVamosaLeer, Assembly-CSharp
+        m_MethodName: ChangeScenne
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4782,6 +4773,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434145048}
   m_CullTransparentMesh: 0
+--- !u!114 &434145053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434145048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee0c4e9bdacb7840a08d73fe0f648fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &489769814
 GameObject:
   m_ObjectHideFlags: 0
@@ -5078,8 +5081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -5330,9 +5331,9 @@ RectTransform:
   m_Father: {fileID: 2093566544}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -382.165, y: -428.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 705.2, y: 129.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &556719987
@@ -7218,8 +7219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -8240,8 +8239,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -8701,8 +8698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -10816,8 +10811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -11543,8 +11536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -12145,8 +12136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -12477,8 +12466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -12616,8 +12603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -12836,8 +12821,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -12929,9 +12912,9 @@ RectTransform:
   m_Father: {fileID: 2093566544}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -382.16498, y: -257.10007}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 708.4, y: 129.6}
   m_Pivot: {x: 0.5, y: 0.49999964}
 --- !u!114 &1353466275
@@ -13184,8 +13167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -14190,8 +14171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -14497,8 +14476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -15265,8 +15242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -15937,8 +15912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -16486,8 +16459,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -16659,8 +16630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -17051,8 +17020,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -17630,8 +17597,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -18367,8 +18332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -18414,7 +18377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1939849028
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18587,8 +18550,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
@@ -20358,8 +20319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundTarget: {fileID: 0}
-  clipTarget: {fileID: 0}
   StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:

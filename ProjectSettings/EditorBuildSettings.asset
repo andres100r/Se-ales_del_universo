@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Pongamos atencion.unity
+    guid: e7325315ba53f7f46af327edb07edeaf
+  - enabled: 1
+    path: Assets/Scenes/Vamos a leer.unity
+    guid: 73502fb3498749046be88f56184ebead
+  - enabled: 1
+    path: Assets/Scenes/Ranking.unity
+    guid: 6a49644430aaa8f4eb9d4edd7cebc98c
   m_configObjects: {}
